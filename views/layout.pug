@@ -1,7 +1,13 @@
 html
     head
         title Nguyen Linh - #{title}
+        style
+            include style.css
     body
+        block header
+            nav#header
+                a(href="/")
+                    h1 Home
         block content
         block foot
             #footer

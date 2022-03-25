@@ -1,0 +1,15 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+nav {
+    padding: 10px 0;
+}
+nav h1 {
+    margin: 0;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
